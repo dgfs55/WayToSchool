@@ -1,0 +1,37 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #DBF0FA;
+  }
+
+  .modal {
+    align-items:center;
+  }
+  
+  .modal-sheet .form-main {
+    width: 100%;
+    max-width: 530px;
+    height: 50%;
+    padding: 15px;
+    margin: auto;
+    
+  }
+
+
+.rounded-6 { border-radius: 1rem; }
+
+.form-floating{
+  width: 100%
+}
+.form-main input[type="school_name"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
